@@ -1,0 +1,25 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+  
+    // Replace with your actual two email addresses
+    function isAllowedUser() {
+      return request.auth != null && 
+             (request.auth.token.email == "mehulbansal0@gmail.com" || 
+              request.auth.token.email == "anvitasinha384@gmail.com");
+    }
+
+    match /users/{userId} {
+      allow read, write: if isAllowedUser() && request.auth.uid == userId;
+    }
+
+    match /suggestions/{document=**} {
+      allow read, write: if isAllowedUser();
+    }
+
+    match /picks/{document=**} {
+      allow read, write: if isAllowedUser();
+    }
+  }
+}

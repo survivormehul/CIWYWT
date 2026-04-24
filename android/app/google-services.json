@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "22691156804",
+    "project_id": "ciwywt---antigravity",
+    "storage_bucket": "ciwywt---antigravity.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22691156804:android:400bbf08fe1d3638993d11",
+        "android_client_info": {
+          "package_name": "com.ciwywt.ciwywt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22691156804-vrfnacg4f8n5980aa8rfkhnnctm3kndh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ciwywt.ciwywt",
+            "certificate_hash": "eb83f844f64c0960fc1c0bc3c8e21e646add8e6d"
+          }
+        },
+        {
+          "client_id": "22691156804-ojaio3rho3bqir86on7fik4cjdeuq4o4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrVGFTVwO4UTsSGmEw2hUKui5yZtD3c5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22691156804-ojaio3rho3bqir86on7fik4cjdeuq4o4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "22691156804-8e92uch7ek0i57frlkpauekmeq23v036.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ciwywt.ciwywt"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
