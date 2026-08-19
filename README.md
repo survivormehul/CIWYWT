@@ -55,10 +55,10 @@ lib/
     cd CIWYWT
     ```
 
-2.  **Install dependencies**
-    ```bash
-    flutter pub get
-    ```
+   2.  **Install dependencies**
+       ```bash
+       flutter pub get
+       ```
 
 3.  **Configure Firebase**
     Make sure your environment contains the necessary Firebase configuration files:
